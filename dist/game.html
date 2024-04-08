@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/image/logo.jfif" type="image/x-icon">
+    <title>Play</title>
+    <link rel="stylesheet" href="/styles/game.css">
+    <script src="/js/index.js" type="module"></script>
+</head>
+<body>
+    <div id="game__container">
+        <div class="question__price" id="q-screen">
+            <div id="q1" class="ques">
+                <h2 class="number">1</h2>
+                <p class="price"> $1000</p>
+            </div>
+            <div id="q2" class="ques">
+                <h2 class="number">2</h2>
+                <p class="price"> $3000</p>
+            </div>
+            <div id="q3" class="ques">
+                <h2 class="number">3</h2>
+                <p class="price"> $4500</p>
+            </div>
+            <div id="q4" class="ques">
+                <h2 class="number">4</h2>
+                <p class="price"> $1200</p>
+            </div>
+            <div id="q5" class="ques blue">
+                <h2 class="number">5</h2>
+                <p class="price"> $1000</p>
+            </div>
+            <div id="q6" class="ques">
+                <h2 class="number">6</h2>
+                <p class="price"> $1200</p>
+            </div>
+            <div id="q7" class="ques">
+                <h2 class="number">7</h2>
+                <p class="price"> $2000</p>
+            </div>
+            <div id="q8" class="ques">
+                <h2 class="number">8</h2>
+                <p class="price"> $5000</p>
+            </div>
+            <div id="q9" class="ques">
+                <h2 class="number">9</h2>
+                <p class="price"> $1600</p>
+            </div>
+            <div id="q10" class="ques blue">
+                <h2 class="number">10</h2>
+                <p class="price"> $3000</p>
+            </div>
+            <div id="q11" class="ques">
+                <h2 class="number">11</h2>
+                <p class="price"> $6500</p>
+            </div>
+            <div id="q12" class="ques">
+                <h2 class="number">12</h2>
+                <p class="price"> $120000</p>
+            </div>
+            <div id="q13" class="ques">
+                <h2 class="number">13</h2>
+                <p class="price"> $150000</p>
+            </div>
+            <div id="q14" class="ques">
+                <h2 class="number">14</h2>
+                <p class="price"> $200000</p>
+            </div>
+            <div id="q15" class="ques blue">
+                <h2 class="number">15</h2>
+                <p class="price"> $500000</p>
+            </div>
+        </div>
+        <div class="screen" id="screen">
+            <h1></h1>
+            <p class="content">
+                Click the start button to start
+            </p>
+        </div>
+        <div class="amount__gained" id="gain">
+            <h2>Amount Gained</h2>
+            <h3 id="total">$0.00</h3>
+        </div>
+    </div>
+
+
+    <div class="controls">
+        <button type="button" class="control" id="walk">Walk Away</button>
+        <button type="button" class="control" id="start">Start</button>
+        <button type="button" class="control" id="fifty">50 50</button>
+        <button type="button" class="control" id="ask">Ask the Audience</button>
+    </div>
+
+    <div class="popup" id="popup">
+        <p>Do you realy Choose this option?</p>
+        <p id="sure"></p>
+        <button type="button" id="yes">Yes</button>
+        <button type="button" id="no">No</button>
+    </div>
+
+    <div class="audience__box" id="audience__box">
+        <div class="first">
+           <h1>Audience Answers</h1>
+           <button id="hide__btn">X</button>
+        </div>
+        <div class="answers">
+            <div class="choice__box">
+                <h3 class="percent"></h3>
+                <p class="choice">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="choice__box">
+                <h3 class="percent"></h3>
+                <p class="choice">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="choice__box">
+                <h3 class="percent"></h3>
+                <p class="choice">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="choice__box">
+                <h3 class="percent"></h3>
+                <p class="choice">Lorem ipsum dolor sit amet</p>
+            </div>
+        </div>
+    </div>
+    <a href="index.html" class="back">Back to Homepage</a>
+</body>
+</html>
